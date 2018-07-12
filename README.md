@@ -1,5 +1,5 @@
 # Azure Cognitive Services - Computer Vision API (OCR) v2 を利用したサンプル WPF アプリケーション 
-<a href="https://westus.dev.cognitive.microsoft.com/docs/services/5adf991815e1060e6355ad44/operations/56f91f2e778daf14a499e1fc">Azure Cognitive Services - Computer Vision API v2 の OCR 機能</a>と Azure Cognitive Services - Text Analytics API キーフレーズ自動抽出機能を利用した以下のような画像解析 WPF アプリケーションのサンプルコードとなります。インストーラー (Installer.zip) も用意しておりますので、お試しください。<br/>
+<a href="https://westus.dev.cognitive.microsoft.com/docs/services/5adf991815e1060e6355ad44/operations/56f91f2e778daf14a499e1fc">Azure Cognitive Services - Computer Vision API v2 の OCR 機能</a>と <a href="https://westus.dev.cognitive.microsoft.com/docs/services/TextAnalytics.V2.0/operations/56f30ceeeda5650db055a3c6">Azure Cognitive Services - Text Analytics API v2 キーフレーズ自動抽出機能</a>を利用した以下のような画像解析 WPF アプリケーションのサンプルコードとなります。インストーラー (Installer.zip) も用意しておりますので、お試しください。<br/>
 <img src="./images/computerVisonWpfApp08.png" /><br/><br/>
 ## アプリケーションの利用手順<br/><br/>
 アプリケーションを起動すると、設定画面が表示されますので、Azure Portal で作成した Cognitive Services の Computer Vision API と Text Analytics API のエンドポイントとキーを設定し、「設定の保存」をクリックしてください。再度、設定が必要な場合は、メイン画面の「ファイル」メニューの「設定画面の表示」をクリックしてください。  
