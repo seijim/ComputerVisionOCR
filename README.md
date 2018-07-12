@@ -6,7 +6,7 @@ Azure Cognitive Services - Computer Vision API の OCR 機能と Azure Cognitive
 <img src="./images/computerVisonWpfApp01.png" /><br/><br/>
 設定を終えると、メイン画面が表示されますので、解析したい画像ファイルを選択します。複数の画像ファイルを同時に選択することが可能です。
 <img src="./images/computerVisonWpfApp03.png" /><br/>
-<img src="./images/computerVisonWpfApp04.png" /><br/><br/>
+<img src="./images/computerVisonWpfApp04.png" width="70%"/><br/><br/>
 選択した画像ファイル名をクリックすると、プレビュー表示されます。
 <img src="./images/computerVisonWpfApp05.png" /><br/><br/>
 分析したい画像ファイル名を選択し、「画像分析の実行」ボタンをクリックすると、Computer Vision API と Text Analytics API が呼び出されます。
