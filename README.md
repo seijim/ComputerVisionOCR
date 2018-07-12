@@ -1,4 +1,4 @@
-# Azure Computer Vision API (OCR) v2 を利用したサンプル WPF アプリケーション 
+# Azure Cognitive Services - Computer Vision API (OCR) v2 を利用したサンプル WPF アプリケーション 
 Azure Cognitive Services - Computer Vision API の OCR 機能と Azure Cognitive Services - Text Analytics API キーフレーズ自動抽出機能を利用した以下のような画像解析 WPF アプリケーションのサンプルコードとなります。インストーラー (Installer.zip) も用意しておりますので、お試しください。<br/>
 <img src="./images/computerVisonWpfApp08.png" /><br/><br/>
 ## アプリケーションの利用手順<br/><br/>
