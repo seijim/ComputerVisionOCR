@@ -159,8 +159,12 @@ namespace WpfAppCV
                         if (cnt < keyPhrases.Count)
                             resultKeyPhrases += ", ";
                     }
+                    MessageBox.Show(resultKeyPhrases, "キーフレーズ", MessageBoxButton.OK, MessageBoxImage.Information);
                 }
-                MessageBox.Show(resultKeyPhrases, "キーフレーズ", MessageBoxButton.OK, MessageBoxImage.Information);
+                else
+                {
+                    MessageBox.Show("キーフレーズは１つも抽出できませんでした", "キーフレーズ", MessageBoxButton.OK, MessageBoxImage.Warning);
+                }
 
                 ButtonAnalysis.IsEnabled = true;
             }
@@ -207,6 +211,11 @@ namespace WpfAppCV
                 var httpContent = response.Content;
                 var result = await httpContent.ReadAsStringAsync();
                 var joResult = (JObject)JsonConvert.DeserializeObject(result);
+                var jaDocuments = (JArray)joResult["documents"];
+                // Check count of ducuments
+                if (jaDocuments.Count == 0)
+                    return listKeyPhrase;
+
                 var jaResult = (JArray)joResult["documents"][0]["keyPhrases"];
                 if (jaResult.Count >= 1)
                 {
