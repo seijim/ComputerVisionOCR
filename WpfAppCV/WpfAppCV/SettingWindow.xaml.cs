@@ -23,8 +23,8 @@ namespace WpfAppCV
 
             if ((string)Properties.Settings.Default["TextAnalyticsApiKey"] != string.Empty)
             {
-                TextBoxVisionApiUrl.Text = (string)Properties.Settings.Default["TextAnalyticsApiUri"];
-                TextBoxVisionApiKey.Text = (string)Properties.Settings.Default["TextAnalyticsApiKey"];
+                TextBoxTextAnalyticsApiUrl.Text = (string)Properties.Settings.Default["TextAnalyticsApiUri"];
+                TextBoxTextAnalyticsApiKey.Text = (string)Properties.Settings.Default["TextAnalyticsApiKey"];
             }
         }
 
@@ -32,7 +32,7 @@ namespace WpfAppCV
         {
             Properties.Settings.Default["VisionApiUri"] = TextBoxVisionApiUrl.Text.Trim();
             Properties.Settings.Default["VisionApiKey"] = TextBoxVisionApiKey.Text.Trim();
-            Properties.Settings.Default["TextAnalyticsApiUri"] = TextBoxTextAnalyticsApiUr.Text.Trim();
+            Properties.Settings.Default["TextAnalyticsApiUri"] = TextBoxTextAnalyticsApiUrl.Text.Trim();
             Properties.Settings.Default["TextAnalyticsApiKey"] = TextBoxTextAnalyticsApiKey.Text.Trim();
             Properties.Settings.Default.Save();
 

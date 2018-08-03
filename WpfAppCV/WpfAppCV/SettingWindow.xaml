@@ -15,7 +15,7 @@
         <Label Content="Vision API Key" HorizontalAlignment="Left" Margin="10,63,0,0" VerticalAlignment="Top" Width="574" Height="26"/>
         <TextBox Name="TextBoxVisionApiKey" HorizontalAlignment="Left" Height="22" Margin="10,89,0,0" TextWrapping="NoWrap" Text="" VerticalAlignment="Top" Width="328"/>
         <Label Content="Text Analytics API Endpoint URL" HorizontalAlignment="Left" Margin="10,119,0,0" VerticalAlignment="Top" Width="328" Height="26"/>
-        <TextBox x:Name="TextBoxTextAnalyticsApiUr" Text="https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/keyPhrases" HorizontalAlignment="Left" Height="22" Margin="10,145,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="513"/>
+        <TextBox x:Name="TextBoxTextAnalyticsApiUrl" Text="https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/keyPhrases" HorizontalAlignment="Left" Height="22" Margin="10,145,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="513"/>
         <Label Content="Text Analytics API Key" HorizontalAlignment="Left" Margin="10,172,-134,0" VerticalAlignment="Top" Width="574" Height="26"/>
         <TextBox x:Name="TextBoxTextAnalyticsApiKey" HorizontalAlignment="Left" Height="22" Margin="10,198,0,0" TextWrapping="NoWrap" Text="" VerticalAlignment="Top" Width="328"/>
         <Button Name="ButtonSave" Content="設定の保存" HorizontalAlignment="Left" Margin="10,246,0,0" VerticalAlignment="Top" Width="113" Height="26" Click="ButtonSave_Click" RenderTransformOrigin="0.632,-1.372"/>
